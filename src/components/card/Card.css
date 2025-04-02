@@ -1,0 +1,27 @@
+.card {
+  background-color: rgb(240, 244, 249);
+  border-radius: 10px;
+  transition: 0.1s;
+  padding: 1em;
+  position: relative;
+  cursor: pointer;
+}
+.card .imgCon {
+  background: white;
+  height: 2.3em;
+  width: 2.3em;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+}
+.card img {
+  height: 1.5em;
+}
+
+.card:hover {
+  background-color: rgb(221, 227, 234);
+}
