@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  height: 1.15em;
+}
+.App {
+  height: 100dvh;
+  font-family: "Outfit", sans-serif;
+  width: 100%;
+  position: relative;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas:
+    "sidebar header"
+    "sidebar main"
+    "sidebar footer";
+}
+.threedot {
+  cursor: pointer;
+  position: absolute;
+  top: 0.8em;
+  left: 0.8em;
+  height: 7dvh;
+  width: 7dvh;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.2s;
+}
+.threedot:hover {
+  background-color: rgb(229, 234, 241);
+}
